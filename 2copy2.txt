@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-    Assignment 2 second part
-   making changes..
+    Assignment 2 second part 1
+
+   making changes....
+
+   
+css_assignments
 	 
 </body>
 </html>	
