@@ -1,7 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-   Assignment 2 third part 1
-   making second changes....
-</body>
-</html>

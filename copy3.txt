@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<body>
-    Assignment 2 
-   copy 3....
-   Second changes
-	 
-</body>
-</html>	
