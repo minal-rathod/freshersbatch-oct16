@@ -1,19 +1,26 @@
 function check_prime()
 {
-	var number= document.getElementById("number").value;
-	var i,f;
-	for(i=2;i <= a/2;i++)
-	{
-		if(number%i == 0)
+	var low,high,i,flag;
+	low = document.getElementById("num1").value;
+	high = document.getElementById("num2").value;
+while (low < high)
+    {
+        flag = 0;
+
+        for(i = 2; i <= low/2; ++i)
         {
-            f=1;
-            break;
-         } 
+            if(low % i == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+
+        if (flag == 0)
+            document.write(low+"<br>");
+
+        ++low;
     }
-    if(f==0){
-	document.write("Number '"+number+"' is a prime number.");
-	}
-	else{
-	document.write("Number '"+number+"' is not a prime number.");
-	}
-}	
+
+    return 0;
+}
